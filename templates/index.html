@@ -1,9 +1,13 @@
-
+{% load static %}
 
 
 {% block content %}
 
 {% include 'snippets/navbar.html' %}
+
+<img src="{% static banner %}" alt="" width="100%">
+
+
 
 <h1>Ini Adalah Halaman {{title}}</h1>
 

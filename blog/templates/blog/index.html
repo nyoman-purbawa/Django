@@ -1,8 +1,11 @@
 {% extends 'base.html' %}
+{% load static %}
 
 
 {% block content %}
-{% include 'blog/snippets/navbar.html' %}
+    {% include 'blog/snippets/navbar.html' %}
+
+    <img src="{% static banner %}" alt="" width="100%">
 
     <h1>Ini Adalah Halaman {{title}}</h1>
 

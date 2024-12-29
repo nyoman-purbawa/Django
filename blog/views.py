@@ -11,6 +11,7 @@ def index(request):
             ['', 'Blog'],
             ['article/', 'Article'],
             ['berita/', 'Berita'],
-        ]
+        ],
+        'banner':  'blog/images/gambar_banner.jpg'
     }
     return render(request, 'blog/index.html', context)
