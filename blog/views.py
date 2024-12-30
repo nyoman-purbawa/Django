@@ -15,3 +15,6 @@ def index(request):
         'banner':  'blog/images/gambar_banner.jpg'
     }
     return render(request, 'blog/index.html', context)
+
+def detail(request):
+    return render(request, 'blog/detail.html')
